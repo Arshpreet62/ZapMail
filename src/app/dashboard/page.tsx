@@ -13,10 +13,10 @@ export default function InboxPage() {
         Welcome to Your Inbox, {session.user?.name || "User"}!
       </h1>
       <p className="mb-6 text-gray-600">
-        This is the main dashboard where you’ll see your emails.
+        This is the main dashboard where you&apos;ll see your emails.
       </p>
       <div className="bg-white p-6 rounded-lg shadow-md">
-        <p>You’re successfully logged in with {session.user?.email}</p>
+        <p>You&apos;re successfully logged in with {session.user?.email}</p>
         {/* Here you’ll list and manage emails in the future */}
       </div>
     </main>

@@ -9,7 +9,8 @@ import {
   MdOutlineSchedule,
 } from "react-icons/md";
 import { FaRegCheckCircle } from "react-icons/fa";
-import { Image } from "next/image";
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div>
@@ -437,8 +438,8 @@ export default function Home() {
               Ready to transform your email experience?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Join thousands of professionals who've already made the switch to
-              ZapMail.
+             Join thousands of professionals who&apos;ve already made the switch to ZapMail.
+
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/auth">
