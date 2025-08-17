@@ -9,6 +9,7 @@ import {
   MdOutlineSchedule,
 } from "react-icons/md";
 import { FaRegCheckCircle } from "react-icons/fa";
+import { Image } from "next/image";
 export default function Home() {
   return (
     <div>
@@ -69,19 +70,19 @@ export default function Home() {
 
             <div className="mt-8 flex items-center">
               <div className="flex -space-x-2">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MzkyNDZ8MHwxfHNlYXJjaHwxfHx1c2VyfGVufDB8fHx8MTc1NTI0NzMwN3ww&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="User"
                   className="w-8 h-8 rounded-full border-2 border-white"
                   // keywords="user, avatar, customer"
                 />
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MzkyNDZ8MHwxfHNlYXJjaHwyfHx1c2VyfGVufDB8fHx8MTc1NTI0NzMwN3ww&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="User"
                   className="w-8 h-8 rounded-full border-2 border-white"
                   // keywords="user, avatar, customer"
                 />
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MzkyNDZ8MHwxfHNlYXJjaHwzfHx1c2VyfGVufDB8fHx8MTc1NTI0NzMwN3ww&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="User"
                   className="w-8 h-8 rounded-full border-2 border-white"
